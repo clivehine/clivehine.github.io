@@ -18,3 +18,10 @@ You can find the source code for Jekyll at GitHub:
 
 ----
 [~~jekyll-organization~~ Double tagged to strikethru ;)](https://github.com/jekyll)
+
+| Effect        | Format          |   |   |   |
+|---------------|-----------------|---|---|---|
+| strikethrough | ~strikethrough~ |   |   |   |
+| bold          | __bold__        |   |   |   |
+| italics       | _italics_       |   |   |   |
+|               |                 |   |   |   |
