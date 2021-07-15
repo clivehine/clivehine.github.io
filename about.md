@@ -25,3 +25,32 @@ You can find the source code for Jekyll at GitHub:
 | bold          | __bold__        |   |   |   |
 | italics       | _italics_       |   |   |   |
 |               |                 |   |   |   |
+
+<details>
+  <summary><em><strong>Expand code block</strong></em></summary>
+
+```yaml
+trigger:
+  batch: true
+  branches:
+    include:
+    - main
+  paths:
+    include:
+      - AzureAD/Subscriptions/
+
+schedules:
+- cron: "0 */1 * * *"
+  displayName: Run hourly every day
+  branches:
+    include:
+    - main
+  always: true
+
+pr: none
+
+extends:
+  template: ../Shared/azure-pipelines.yml
+```
+
+</details>
